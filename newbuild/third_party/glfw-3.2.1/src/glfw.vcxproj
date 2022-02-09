@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{7421A437-A593-3123-9AC3-4D3064EE6146}</ProjectGuid>
+    <ProjectGuid>{16474372-297E-32A7-A329-2B9502EDF3FE}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
@@ -59,26 +59,26 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\newbuild\third_party\glfw-3.2.1\src\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\newbuild\third_party\glfw-3.2.1\src\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">glfw.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">glfw3</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\newbuild\third_party\glfw-3.2.1\src\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\newbuild\third_party\glfw-3.2.1\src\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">glfw.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">glfw3</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\newbuild\third_party\glfw-3.2.1\src\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\newbuild\third_party\glfw-3.2.1\src\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">glfw.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">glfw3</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\newbuild\third_party\glfw-3.2.1\src\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\newbuild\third_party\glfw-3.2.1\src\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">glfw.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">glfw3</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\include;E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\include;E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src;E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\newbuild\third_party\glfw-3.2.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\include;E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\include;E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src;E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\newbuild\third_party\glfw-3.2.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -95,10 +95,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_GLFW_USE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\include;E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\include;E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src;E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\newbuild\third_party\glfw-3.2.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\include;E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\include;E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src;E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\newbuild\third_party\glfw-3.2.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\include;E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\include;E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src;E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\newbuild\third_party\glfw-3.2.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\include;E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\include;E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src;E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\newbuild\third_party\glfw-3.2.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -111,7 +111,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\include;E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\include;E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src;E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\newbuild\third_party\glfw-3.2.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\include;E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\include;E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src;E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\newbuild\third_party\glfw-3.2.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>
       </ExceptionHandling>
@@ -128,10 +128,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_GLFW_USE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\include;E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\include;E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src;E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\newbuild\third_party\glfw-3.2.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\include;E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\include;E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src;E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\newbuild\third_party\glfw-3.2.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\include;E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\include;E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src;E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\newbuild\third_party\glfw-3.2.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\include;E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\include;E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src;E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\newbuild\third_party\glfw-3.2.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -144,7 +144,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\include;E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\include;E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src;E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\newbuild\third_party\glfw-3.2.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\include;E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\include;E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src;E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\newbuild\third_party\glfw-3.2.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>
       </ExceptionHandling>
@@ -161,10 +161,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_GLFW_USE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\include;E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\include;E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src;E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\newbuild\third_party\glfw-3.2.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\include;E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\include;E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src;E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\newbuild\third_party\glfw-3.2.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\include;E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\include;E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src;E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\newbuild\third_party\glfw-3.2.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\include;E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\include;E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src;E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\newbuild\third_party\glfw-3.2.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -177,7 +177,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\include;E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\include;E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src;E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\newbuild\third_party\glfw-3.2.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\include;E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\include;E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src;E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\newbuild\third_party\glfw-3.2.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>
@@ -193,10 +193,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_GLFW_USE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\include;E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\include;E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src;E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\newbuild\third_party\glfw-3.2.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\include;E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\include;E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src;E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\newbuild\third_party\glfw-3.2.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\include;E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\include;E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src;E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\newbuild\third_party\glfw-3.2.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\include;E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\include;E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src;E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\newbuild\third_party\glfw-3.2.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -208,11 +208,11 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\CMakeLists.txt">
+    <CustomBuild Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src\CMakeLists.txt">
       <StdOutEncoding>UTF-8</StdOutEncoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/GitHub_WorkPlace/Vulkan-Forward-Plus-Renderer/third_party/glfw-3.2.1/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/GitHub_WorkPlace/Vulkan_ForwardPlus_Render/third_party/glfw-3.2.1/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SE:/GitHub_WorkPlace/Vulkan-Forward-Plus-Renderer -BE:/GitHub_WorkPlace/Vulkan-Forward-Plus-Renderer/newbuild --check-stamp-file E:/GitHub_WorkPlace/Vulkan-Forward-Plus-Renderer/newbuild/third_party/glfw-3.2.1/src/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/GitHub_WorkPlace/Vulkan_ForwardPlus_Render -BE:/GitHub_WorkPlace/Vulkan_ForwardPlus_Render/newbuild --check-stamp-file E:/GitHub_WorkPlace/Vulkan_ForwardPlus_Render/newbuild/third_party/glfw-3.2.1/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -221,11 +221,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\newbuild\third_party\glfw-3.2.1\src\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\newbuild\third_party\glfw-3.2.1\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/GitHub_WorkPlace/Vulkan-Forward-Plus-Renderer/third_party/glfw-3.2.1/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/GitHub_WorkPlace/Vulkan_ForwardPlus_Render/third_party/glfw-3.2.1/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SE:/GitHub_WorkPlace/Vulkan-Forward-Plus-Renderer -BE:/GitHub_WorkPlace/Vulkan-Forward-Plus-Renderer/newbuild --check-stamp-file E:/GitHub_WorkPlace/Vulkan-Forward-Plus-Renderer/newbuild/third_party/glfw-3.2.1/src/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/GitHub_WorkPlace/Vulkan_ForwardPlus_Render -BE:/GitHub_WorkPlace/Vulkan_ForwardPlus_Render/newbuild --check-stamp-file E:/GitHub_WorkPlace/Vulkan_ForwardPlus_Render/newbuild/third_party/glfw-3.2.1/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -234,11 +234,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\newbuild\third_party\glfw-3.2.1\src\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\newbuild\third_party\glfw-3.2.1\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/GitHub_WorkPlace/Vulkan-Forward-Plus-Renderer/third_party/glfw-3.2.1/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/GitHub_WorkPlace/Vulkan_ForwardPlus_Render/third_party/glfw-3.2.1/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SE:/GitHub_WorkPlace/Vulkan-Forward-Plus-Renderer -BE:/GitHub_WorkPlace/Vulkan-Forward-Plus-Renderer/newbuild --check-stamp-file E:/GitHub_WorkPlace/Vulkan-Forward-Plus-Renderer/newbuild/third_party/glfw-3.2.1/src/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/GitHub_WorkPlace/Vulkan_ForwardPlus_Render -BE:/GitHub_WorkPlace/Vulkan_ForwardPlus_Render/newbuild --check-stamp-file E:/GitHub_WorkPlace/Vulkan_ForwardPlus_Render/newbuild/third_party/glfw-3.2.1/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -247,11 +247,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\newbuild\third_party\glfw-3.2.1\src\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\newbuild\third_party\glfw-3.2.1\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/GitHub_WorkPlace/Vulkan-Forward-Plus-Renderer/third_party/glfw-3.2.1/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/GitHub_WorkPlace/Vulkan_ForwardPlus_Render/third_party/glfw-3.2.1/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SE:/GitHub_WorkPlace/Vulkan-Forward-Plus-Renderer -BE:/GitHub_WorkPlace/Vulkan-Forward-Plus-Renderer/newbuild --check-stamp-file E:/GitHub_WorkPlace/Vulkan-Forward-Plus-Renderer/newbuild/third_party/glfw-3.2.1/src/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/GitHub_WorkPlace/Vulkan_ForwardPlus_Render -BE:/GitHub_WorkPlace/Vulkan_ForwardPlus_Render/newbuild --check-stamp-file E:/GitHub_WorkPlace/Vulkan_ForwardPlus_Render/newbuild/third_party/glfw-3.2.1/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -260,37 +260,37 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\newbuild\third_party\glfw-3.2.1\src\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\newbuild\third_party\glfw-3.2.1\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\context.c" />
-    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\init.c" />
-    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\input.c" />
-    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\monitor.c" />
-    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\vulkan.c" />
-    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\window.c" />
-    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\win32_init.c" />
-    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\win32_joystick.c" />
-    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\win32_monitor.c" />
-    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\win32_time.c" />
-    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\win32_tls.c" />
-    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\win32_window.c" />
-    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\wgl_context.c" />
-    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\egl_context.c" />
-    <ClInclude Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\internal.h" />
-    <ClInclude Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\newbuild\third_party\glfw-3.2.1\src\glfw_config.h" />
-    <ClInclude Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\include\GLFW\glfw3.h" />
-    <ClInclude Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\include\GLFW\glfw3native.h" />
-    <ClInclude Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\win32_platform.h" />
-    <ClInclude Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\win32_joystick.h" />
-    <ClInclude Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\wgl_context.h" />
-    <ClInclude Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\egl_context.h" />
+    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src\context.c" />
+    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src\init.c" />
+    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src\input.c" />
+    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src\monitor.c" />
+    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src\vulkan.c" />
+    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src\window.c" />
+    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src\win32_init.c" />
+    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src\win32_joystick.c" />
+    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src\win32_monitor.c" />
+    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src\win32_time.c" />
+    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src\win32_tls.c" />
+    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src\win32_window.c" />
+    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src\wgl_context.c" />
+    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src\egl_context.c" />
+    <ClInclude Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src\internal.h" />
+    <ClInclude Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\newbuild\third_party\glfw-3.2.1\src\glfw_config.h" />
+    <ClInclude Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\include\GLFW\glfw3.h" />
+    <ClInclude Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\include\GLFW\glfw3native.h" />
+    <ClInclude Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src\win32_platform.h" />
+    <ClInclude Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src\win32_joystick.h" />
+    <ClInclude Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src\wgl_context.h" />
+    <ClInclude Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src\egl_context.h" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\newbuild\ZERO_CHECK.vcxproj">
-      <Project>{8C07B369-9951-3954-AFF3-EA0F0077DA5F}</Project>
+    <ProjectReference Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\newbuild\ZERO_CHECK.vcxproj">
+      <Project>{B47174DE-EF84-31D9-98E7-F7A378B303A1}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

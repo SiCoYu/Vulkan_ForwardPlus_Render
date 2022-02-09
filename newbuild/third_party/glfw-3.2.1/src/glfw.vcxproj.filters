@@ -1,84 +1,84 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\context.c">
+    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src\context.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\init.c">
+    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src\init.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\input.c">
+    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src\input.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\monitor.c">
+    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src\monitor.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\vulkan.c">
+    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src\vulkan.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\window.c">
+    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src\window.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\win32_init.c">
+    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src\win32_init.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\win32_joystick.c">
+    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src\win32_joystick.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\win32_monitor.c">
+    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src\win32_monitor.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\win32_time.c">
+    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src\win32_time.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\win32_tls.c">
+    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src\win32_tls.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\win32_window.c">
+    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src\win32_window.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\wgl_context.c">
+    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src\wgl_context.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\egl_context.c">
+    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src\egl_context.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\internal.h">
+    <ClInclude Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src\internal.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\newbuild\third_party\glfw-3.2.1\src\glfw_config.h">
+    <ClInclude Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\newbuild\third_party\glfw-3.2.1\src\glfw_config.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\include\GLFW\glfw3.h">
+    <ClInclude Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\include\GLFW\glfw3.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\include\GLFW\glfw3native.h">
+    <ClInclude Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\include\GLFW\glfw3native.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\win32_platform.h">
+    <ClInclude Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src\win32_platform.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\win32_joystick.h">
+    <ClInclude Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src\win32_joystick.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\wgl_context.h">
+    <ClInclude Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src\wgl_context.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\egl_context.h">
+    <ClInclude Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src\egl_context.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\CMakeLists.txt" />
+    <CustomBuild Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{E8C7601E-8F87-3F30-946A-B9CE9B7E4207}</UniqueIdentifier>
+      <UniqueIdentifier>{FA129A7E-5DD6-369B-8EB4-62624A7B3ECD}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{FB3783E4-9BED-34A6-9AFA-19745CC82C5D}</UniqueIdentifier>
+      <UniqueIdentifier>{0796182C-CB60-3A3F-9998-B19E33626154}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

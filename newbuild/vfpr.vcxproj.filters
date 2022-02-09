@@ -1,69 +1,69 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\src\main.cpp">
+    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\src\main.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\src\third_party.cpp">
+    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\src\third_party.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\src\util.cpp">
+    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\src\util.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\src\scene.cpp">
+    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\src\scene.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\src\renderer\vulkan_util.cpp">
+    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\src\renderer\vulkan_util.cpp">
       <Filter>src\renderer</Filter>
     </ClCompile>
-    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\src\renderer\context.cpp">
+    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\src\renderer\context.cpp">
       <Filter>src\renderer</Filter>
     </ClCompile>
-    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\src\renderer\model.cpp">
+    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\src\renderer\model.cpp">
       <Filter>src\renderer</Filter>
     </ClCompile>
-    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\src\renderer\VulkanRenderer.cpp">
+    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\src\renderer\VulkanRenderer.cpp">
       <Filter>src\renderer</Filter>
     </ClCompile>
-    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\src\ShowBase.cpp">
+    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\src\ShowBase.cpp">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\src\util.h">
+    <ClInclude Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\src\util.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\src\scene.h">
+    <ClInclude Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\src\scene.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\src\renderer\raii.h">
+    <ClInclude Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\src\renderer\raii.h">
       <Filter>src\renderer</Filter>
     </ClInclude>
-    <ClInclude Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\src\renderer\vulkan_util.h">
+    <ClInclude Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\src\renderer\vulkan_util.h">
       <Filter>src\renderer</Filter>
     </ClInclude>
-    <ClInclude Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\src\renderer\context.h">
+    <ClInclude Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\src\renderer\context.h">
       <Filter>src\renderer</Filter>
     </ClInclude>
-    <ClInclude Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\src\renderer\model.h">
+    <ClInclude Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\src\renderer\model.h">
       <Filter>src\renderer</Filter>
     </ClInclude>
-    <ClInclude Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\src\renderer\VulkanRenderer.h">
+    <ClInclude Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\src\renderer\VulkanRenderer.h">
       <Filter>src\renderer</Filter>
     </ClInclude>
-    <ClInclude Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\src\ShowBase.h">
+    <ClInclude Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\src\ShowBase.h">
       <Filter>src</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\CMakeLists.txt" />
+    <CustomBuild Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="src">
-      <UniqueIdentifier>{7E692B42-1A0F-3448-8B63-5490B63E86D2}</UniqueIdentifier>
+      <UniqueIdentifier>{A590ACC9-6640-3FB2-A652-3270EE7F98B6}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\renderer">
-      <UniqueIdentifier>{E1843FA0-D464-3396-B68F-64B91B7237AF}</UniqueIdentifier>
+      <UniqueIdentifier>{EED2FBCB-0E3D-3999-BCCF-3AD7D831E2AF}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

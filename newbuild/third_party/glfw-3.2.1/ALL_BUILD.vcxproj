@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{4E2B5F27-13CB-36FB-84B6-1F3952313CEE}</ProjectGuid>
+    <ProjectGuid>{CBD0159A-F1E0-3A14-A415-8E519F7F7603}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
@@ -66,7 +66,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -76,7 +76,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -86,7 +86,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -96,7 +96,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -105,11 +105,11 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\CMakeLists.txt">
+    <CustomBuild Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\CMakeLists.txt">
       <StdOutEncoding>UTF-8</StdOutEncoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/GitHub_WorkPlace/Vulkan-Forward-Plus-Renderer/third_party/glfw-3.2.1/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/GitHub_WorkPlace/Vulkan_ForwardPlus_Render/third_party/glfw-3.2.1/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SE:/GitHub_WorkPlace/Vulkan-Forward-Plus-Renderer -BE:/GitHub_WorkPlace/Vulkan-Forward-Plus-Renderer/newbuild --check-stamp-file E:/GitHub_WorkPlace/Vulkan-Forward-Plus-Renderer/newbuild/third_party/glfw-3.2.1/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/GitHub_WorkPlace/Vulkan_ForwardPlus_Render -BE:/GitHub_WorkPlace/Vulkan_ForwardPlus_Render/newbuild --check-stamp-file E:/GitHub_WorkPlace/Vulkan_ForwardPlus_Render/newbuild/third_party/glfw-3.2.1/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -117,12 +117,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\WriteBasicConfigVersionFile.cmake;E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\CMake\modules\FindVulkan.cmake;E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\cmake_uninstall.cmake.in;E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\glfw3.pc.in;E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\glfw3Config.cmake.in;E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\newbuild\third_party\glfw-3.2.1\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\WriteBasicConfigVersionFile.cmake;E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\CMake\modules\FindVulkan.cmake;E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\cmake_uninstall.cmake.in;E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src\glfw3.pc.in;E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src\glfw3Config.cmake.in;E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\newbuild\third_party\glfw-3.2.1\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/GitHub_WorkPlace/Vulkan-Forward-Plus-Renderer/third_party/glfw-3.2.1/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/GitHub_WorkPlace/Vulkan_ForwardPlus_Render/third_party/glfw-3.2.1/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SE:/GitHub_WorkPlace/Vulkan-Forward-Plus-Renderer -BE:/GitHub_WorkPlace/Vulkan-Forward-Plus-Renderer/newbuild --check-stamp-file E:/GitHub_WorkPlace/Vulkan-Forward-Plus-Renderer/newbuild/third_party/glfw-3.2.1/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/GitHub_WorkPlace/Vulkan_ForwardPlus_Render -BE:/GitHub_WorkPlace/Vulkan_ForwardPlus_Render/newbuild --check-stamp-file E:/GitHub_WorkPlace/Vulkan_ForwardPlus_Render/newbuild/third_party/glfw-3.2.1/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -130,12 +130,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\WriteBasicConfigVersionFile.cmake;E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\CMake\modules\FindVulkan.cmake;E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\cmake_uninstall.cmake.in;E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\glfw3.pc.in;E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\glfw3Config.cmake.in;E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\newbuild\third_party\glfw-3.2.1\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\WriteBasicConfigVersionFile.cmake;E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\CMake\modules\FindVulkan.cmake;E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\cmake_uninstall.cmake.in;E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src\glfw3.pc.in;E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src\glfw3Config.cmake.in;E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\newbuild\third_party\glfw-3.2.1\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/GitHub_WorkPlace/Vulkan-Forward-Plus-Renderer/third_party/glfw-3.2.1/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/GitHub_WorkPlace/Vulkan_ForwardPlus_Render/third_party/glfw-3.2.1/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SE:/GitHub_WorkPlace/Vulkan-Forward-Plus-Renderer -BE:/GitHub_WorkPlace/Vulkan-Forward-Plus-Renderer/newbuild --check-stamp-file E:/GitHub_WorkPlace/Vulkan-Forward-Plus-Renderer/newbuild/third_party/glfw-3.2.1/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/GitHub_WorkPlace/Vulkan_ForwardPlus_Render -BE:/GitHub_WorkPlace/Vulkan_ForwardPlus_Render/newbuild --check-stamp-file E:/GitHub_WorkPlace/Vulkan_ForwardPlus_Render/newbuild/third_party/glfw-3.2.1/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -143,12 +143,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\WriteBasicConfigVersionFile.cmake;E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\CMake\modules\FindVulkan.cmake;E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\cmake_uninstall.cmake.in;E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\glfw3.pc.in;E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\glfw3Config.cmake.in;E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\newbuild\third_party\glfw-3.2.1\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\WriteBasicConfigVersionFile.cmake;E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\CMake\modules\FindVulkan.cmake;E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\cmake_uninstall.cmake.in;E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src\glfw3.pc.in;E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src\glfw3Config.cmake.in;E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\newbuild\third_party\glfw-3.2.1\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/GitHub_WorkPlace/Vulkan-Forward-Plus-Renderer/third_party/glfw-3.2.1/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/GitHub_WorkPlace/Vulkan_ForwardPlus_Render/third_party/glfw-3.2.1/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SE:/GitHub_WorkPlace/Vulkan-Forward-Plus-Renderer -BE:/GitHub_WorkPlace/Vulkan-Forward-Plus-Renderer/newbuild --check-stamp-file E:/GitHub_WorkPlace/Vulkan-Forward-Plus-Renderer/newbuild/third_party/glfw-3.2.1/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/GitHub_WorkPlace/Vulkan_ForwardPlus_Render -BE:/GitHub_WorkPlace/Vulkan_ForwardPlus_Render/newbuild --check-stamp-file E:/GitHub_WorkPlace/Vulkan_ForwardPlus_Render/newbuild/third_party/glfw-3.2.1/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -156,22 +156,22 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\WriteBasicConfigVersionFile.cmake;E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\CMake\modules\FindVulkan.cmake;E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\cmake_uninstall.cmake.in;E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\glfw3.pc.in;E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\glfw3Config.cmake.in;E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\newbuild\third_party\glfw-3.2.1\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\WriteBasicConfigVersionFile.cmake;E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\CMake\modules\FindVulkan.cmake;E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\cmake_uninstall.cmake.in;E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src\glfw3.pc.in;E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src\glfw3Config.cmake.in;E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\third_party\glfw-3.2.1\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\newbuild\third_party\glfw-3.2.1\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\newbuild\ZERO_CHECK.vcxproj">
-      <Project>{8C07B369-9951-3954-AFF3-EA0F0077DA5F}</Project>
+    <ProjectReference Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\newbuild\ZERO_CHECK.vcxproj">
+      <Project>{B47174DE-EF84-31D9-98E7-F7A378B303A1}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\newbuild\third_party\glfw-3.2.1\src\glfw.vcxproj">
-      <Project>{7421A437-A593-3123-9AC3-4D3064EE6146}</Project>
+    <ProjectReference Include="E:\GitHub_WorkPlace\Vulkan_ForwardPlus_Render\newbuild\third_party\glfw-3.2.1\src\glfw.vcxproj">
+      <Project>{16474372-297E-32A7-A329-2B9502EDF3FE}</Project>
       <Name>glfw</Name>
     </ProjectReference>
   </ItemGroup>
