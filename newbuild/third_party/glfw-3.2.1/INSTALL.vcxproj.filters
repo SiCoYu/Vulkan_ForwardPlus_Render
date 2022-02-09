@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\newbuild\CMakeFiles\089b59cf62186cd27e5ce07b2b028c78\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{792FEC4D-52D5-3010-A455-CF35D5E12F69}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\context.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\init.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\input.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\monitor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\vulkan.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\window.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\win32_init.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\win32_joystick.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\win32_monitor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\win32_time.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\win32_tls.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\win32_window.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\wgl_context.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\egl_context.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\newbuild\third_party\glfw-3.2.1\src\glfw_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\include\GLFW\glfw3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\include\GLFW\glfw3native.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\win32_platform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\win32_joystick.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\wgl_context.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\egl_context.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\GitHub_WorkPlace\Vulkan-Forward-Plus-Renderer\third_party\glfw-3.2.1\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E8C7601E-8F87-3F30-946A-B9CE9B7E4207}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{FB3783E4-9BED-34A6-9AFA-19745CC82C5D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
