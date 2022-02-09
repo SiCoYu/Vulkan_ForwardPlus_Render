@@ -241,6 +241,9 @@ Z: toggle debug view
   * mesh
   * texture mapping
   * lambert shading
+#本教程来自https://github.com/WindyDarian/Vulkan-Forward-Plus-Renderer
+*原教程是基于VS2015，Vulkan SDK版本较低，本教程升级到VS2019，支持Vulkan SDK1.2.170
+  
 * Cross Platform using GLFW & CMake (Windows, Linux)
 
 ### Milestone 2 (11/28/2016)
