@@ -1,5 +1,5 @@
-#本教程来自https://github.com/WindyDarian/Vulkan-Forward-Plus-Renderer
-*原教程是基于VS2015，Vulkan SDK版本较低，本教程升级到VS2019，支持Vulkan SDK1.2.170
+# 本教程来自https://github.com/WindyDarian/Vulkan-Forward-Plus-Renderer
+* 原教程是基于VS2015，Vulkan SDK版本较低，本教程升级到VS2019，支持Vulkan SDK1.2.170
 
 # VFPR - a Vulkan Forward Plus Renderer
 
